@@ -8,7 +8,7 @@
 	$_SESSION['success'] = "";
 
 	// connect to database
-	$db = mysqli_connect('localhost', 'root', '', 'hotel');
+	$db = mysqli_connect('remotemysql.com', 'a0j7ZjgGYf', 'xwouuc7E0L', 'a0j7ZjgGYf');
 
 	// REGISTER USER
 	if (isset($_POST['register'])) {

@@ -1,9 +1,14 @@
 <?php ob_start();
 
-$db['db_host'] = "localhost";
-$db['db_user'] = "root";
-$db['db_pass'] = "";
-$db['db_name'] = "hotel";
+//$db['db_host'] = "localhost";
+//$db['db_user'] = "root";
+//$db['db_pass'] = "";
+//$db['db_name'] = "hotel";
+
+$db['db_host'] = "remotemysql.com";
+$db['db_user'] = "a0j7ZjgGYf";
+$db['db_pass'] = "xwouuc7E0L";
+$db['db_name'] = "a0j7ZjgGYf";
 
 foreach($db as $key => $value){
 define(strtoupper($key), $value);
