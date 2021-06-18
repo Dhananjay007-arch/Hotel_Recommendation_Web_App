@@ -15,4 +15,4 @@ Download Xampp from the above link. Once installed, start the Apache and MySQL m
 Type "localhost/phpmyadmin/" in your browser and create a new database "hotel". There is an import option in this database. Import the "hotel.sql" file. You will se 4 tables, admin, users, hotel and history.
 
 <h2>Running the website</h2>
-In your local machine, paste this folder in the "htdocs" directory of your "Xampp" folder. Then go on the browser and type localhost/<folder_name>/hotel/welcome.php. In this way you can see the website on localhost.
+In your local machine, paste this folder in the "htdocs" directory of your "Xampp" folder. Then go on the browser and type localhost/"folder_name"/hotel/welcome.php. In this way you can see the website on localhost.
