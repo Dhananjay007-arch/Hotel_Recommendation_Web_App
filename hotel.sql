@@ -192,27 +192,6 @@ INSERT INTO `hotel` (`id`, `name`, `price`, `pricemax`, `description`, `facility
 -- --------------------------------------------------------
 
 --
--- Table structure for table `reviews`
---
-
-CREATE TABLE `reviews` (
-  `id` int(255) NOT NULL,
-  `hotel_id` int(255) NOT NULL,
-  `reviews` varchar(255) NOT NULL,
-  `rating` int(255) NOT NULL,
-  `username` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `reviews`
---
-
-INSERT INTO `reviews` (`id`, `hotel_id`, `reviews`, `rating`, `username`) VALUES
-(0, 0, '', 0, '');
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `users`
 --
 
